@@ -81,7 +81,8 @@ public class Main {
 		System.out.println("A quantidade de pessoas adultas: " + qnt_pessoas_adultas);
 		System.out.println("O nome do paciente mais velho: " + mais_velho);
 		System.out.println("O nome da mulher mais baixa: " + mulher_mais_baixa);
-				
+		
+		leitor.close();
 	}
 
 }
