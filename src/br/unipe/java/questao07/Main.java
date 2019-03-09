@@ -15,7 +15,7 @@ public class Main {
 			System.out.println("Digite a sua segunda nota: ");
 			nota2 = Float.parseFloat(leitor.nextLine());
 			
-			media = (nota1 + nota2) / 2;
+			media = (float) ((nota1 + nota2) / 2.0);
 			
 			if (media < 3.0) {
 				System.out.println("Reprovado");
@@ -34,7 +34,7 @@ public class Main {
 		System.out.println("Total de alunos aprovados: " + cont_aprovado);
 		System.out.println("Total de alunos no exame: " + cont_exame);
 		System.out.println("Total de alunos reprovados: " + cont_reprovado);
-		System.out.println("A media geral da galera foi: "+ media_geral/6);
+		System.out.println("A media geral da galera foi: "+ media_geral/6.0);
 		
 		leitor.close();
 	}
